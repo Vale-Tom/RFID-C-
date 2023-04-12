@@ -1,0 +1,40 @@
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe.config
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.pdb
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csprojResolveAssemblyReference.cache
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione_seriale_arduino.MainForm.resources
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csproj.GenerateResource.Cache
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.exe
+C:\Users\Utente\Documents\SharpDevelop Projects\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.pdb
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe.config
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.pdb
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csprojResolveAssemblyReference.cache
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione_seriale_arduino.MainForm.resources
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csproj.GenerateResource.Cache
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.exe
+H:\Arduino_Seriale_c#\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.pdb
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe.config
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.pdb
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csprojResolveAssemblyReference.cache
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione_seriale_arduino.MainForm.resources
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csproj.GenerateResource.Cache
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.exe
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.pdb
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe.config
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.pdb
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csprojResolveAssemblyReference.cache
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione_seriale_arduino.MainForm.resources
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csproj.GenerateResource.Cache
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.exe
+E:\tpsit comunicazione su seriale arduino\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.pdb
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe.config
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.exe
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\comunicazione seriale arduino.pdb
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csprojResolveAssemblyReference.cache
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione_seriale_arduino.MainForm.resources
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csproj.GenerateResource.Cache
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.exe
+C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.pdb
