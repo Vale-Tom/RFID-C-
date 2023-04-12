@@ -38,3 +38,12 @@ C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione s
 C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.csproj.GenerateResource.Cache
 C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.exe
 C:\Users\Tele01\Desktop\lag rfid\rfid_grafica\rfid_grafica_sharp\comunicazione seriale arduino\comunicazione seriale arduino\obj\Debug\comunicazione seriale arduino.pdb
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\MySql.Data.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\Google.Protobuf.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\ZstdNet.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\System.Buffers.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Tele01\Desktop\comunicazione seriale arduino\comunicazione seriale arduino\bin\Debug\MySql.Data.xml

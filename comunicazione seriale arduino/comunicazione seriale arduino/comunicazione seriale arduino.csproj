@@ -35,7 +35,7 @@
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\..\..\Documents\tpsit_5a_2023\c#\mysql-connector-net-8.0.32-noinstall\v4.5.2\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\Documents\tpsit\mysql-connector-net-8.0.32-noinstall\v4.8\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">

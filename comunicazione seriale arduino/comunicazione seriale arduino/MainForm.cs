@@ -11,6 +11,9 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using System.IO.Ports;
+using System.Data;
+using MySql.Data.MySqlClient;
+using System.Text;
 
 namespace comunicazione_seriale_arduino
 {
@@ -106,11 +109,63 @@ namespace comunicazione_seriale_arduino
 			listBox1.Items.Clear();
 			
 		}
-
 		
+	
 		
+		void BtnTestClick(object sender, EventArgs e)
+		{
+			try
+				   {
+				       // Apertura connessione
+			       
+				       if (!gestionesql.ApriConnessione())
+				           throw new Exception("Errore nell'apertura della connessione.");
+				
+				       DataTable dt = new DataTable();
+				
+				       // Query da eseguire
+				       StringBuilder sb = new StringBuilder();
+				  //     sb.AppendLine(" SELECT ID, nome, cognome ");
+				  //     sb.AppendLine(" FROM rfid_general ");
+				  	   sb.AppendLine(" SELECT * ");
+				       sb.AppendLine(" FROM personale ");
+				       sb.AppendLine(" WHERE ID='");
+				       sb.Append(datiRicevuti);
+				       sb.Append("'");
+				
+				       label1.Text= sb.ToString();
+				
+				       using (MySqlCommand cmd = new MySqlCommand(sb.ToString(), gestionesql.Connessione))
+				       {
+				           using (MySqlDataAdapter da = new MySqlDataAdapter(cmd))
+				           {
+				               da.Fill(dt);
+				               
+				               tabellaletture.AutoGenerateColumns = true;
+							   tabellaletture.DataSource = dt;
+							   tabellaletture.Refresh();
+				           }
+				       }
+				
+				       // Chiusura connessione
+				       if (!gestionesql.ChiudiConnessione())
+				           throw new Exception("Errore nella chiusura della connessione.");
+				   }
+				   catch (Exception ex)
+				   {
+				       gestionesql.ChiudiConnessione();
+				       MessageBox.Show("Errore: " + ex.Message);
+				   }
+			
+		}
+			
+			
+			
 		}
 
+		
+		
 	}
+	
 
 

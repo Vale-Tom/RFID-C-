@@ -7,6 +7,8 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace comunicazione_seriale_arduino
 {
@@ -25,7 +27,7 @@ namespace comunicazione_seriale_arduino
            {
                if (Connessione.State != ConnectionState.Open)
                {
-                   Connessione.ConnectionString = GestioneMySql.StringaConnessione;
+                   Connessione.ConnectionString = gestionesql.StringaConnessione;
                    Connessione.Open();
                }
                return true;
