@@ -25,6 +25,8 @@ namespace comunicazione_seriale_arduino
 		private System.Windows.Forms.ListBox listBox1;
 		private System.Windows.Forms.Button btnTest;
 		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Button btnLoad;
+		private System.Windows.Forms.PictureBox pictureBox1;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -59,7 +61,10 @@ namespace comunicazione_seriale_arduino
 			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.btnTest = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
+			this.btnLoad = new System.Windows.Forms.Button();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.tabellaletture)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// cmbSERIALE
@@ -115,7 +120,7 @@ namespace comunicazione_seriale_arduino
 			// 
 			this.clrBtn.Location = new System.Drawing.Point(436, 301);
 			this.clrBtn.Name = "clrBtn";
-			this.clrBtn.Size = new System.Drawing.Size(83, 20);
+			this.clrBtn.Size = new System.Drawing.Size(82, 20);
 			this.clrBtn.TabIndex = 8;
 			this.clrBtn.Text = "PULISCI";
 			this.clrBtn.UseVisualStyleBackColor = true;
@@ -155,11 +160,31 @@ namespace comunicazione_seriale_arduino
 			this.label1.TabIndex = 14;
 			this.label1.Text = "label1";
 			// 
+			// btnLoad
+			// 
+			this.btnLoad.Location = new System.Drawing.Point(550, 305);
+			this.btnLoad.Name = "btnLoad";
+			this.btnLoad.Size = new System.Drawing.Size(172, 20);
+			this.btnLoad.TabIndex = 15;
+			this.btnLoad.Text = "Carica Immagine";
+			this.btnLoad.UseVisualStyleBackColor = true;
+			this.btnLoad.Click += new System.EventHandler(this.BtnLoadClick);
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Location = new System.Drawing.Point(550, 56);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(172, 226);
+			this.pictureBox1.TabIndex = 16;
+			this.pictureBox1.TabStop = false;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(544, 405);
+			this.ClientSize = new System.Drawing.Size(739, 350);
+			this.Controls.Add(this.pictureBox1);
+			this.Controls.Add(this.btnLoad);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.btnTest);
 			this.Controls.Add(this.tabellaletture);
@@ -174,6 +199,7 @@ namespace comunicazione_seriale_arduino
 			this.Text = "comunicazione seriale arduino";
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			((System.ComponentModel.ISupportInitialize)(this.tabellaletture)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 
 		}

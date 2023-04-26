@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using System.IO.Ports;
+using System.IO;
 using System.Data;
 using MySql.Data.MySqlClient;
 using System.Text;
@@ -24,7 +25,10 @@ namespace comunicazione_seriale_arduino
 	{
 		string datiRicevuti;
 		int valori;
-
+		
+		private HelperMySql helper = new HelperMySql();
+		
+		
 		SerialPort[] openports = new SerialPort[20];
 		public MainForm()
 		{
@@ -73,14 +77,11 @@ namespace comunicazione_seriale_arduino
 		
 		private void scriviDati(object sender, EventArgs e)
 		{
-			String[] arraydati = new string[3];
-			arraydati[0]=datiRicevuti.ToString();
-			arraydati[1]=datiRicevuti.ToString();
-			arraydati[2]=datiRicevuti.ToString();
+
 			if(datiRicevuti.Length==11 && !listBox1.Items.Contains(datiRicevuti.ToString())){
 				timer1.Enabled=true;
 				panRead.BackColor=Color.Green;
-				tabellaletture.Rows.Add(arraydati); //object[] values
+
 				listBox1.Items.Add(datiRicevuti.ToString());
 			}
 			
@@ -112,6 +113,7 @@ namespace comunicazione_seriale_arduino
 		
 	
 		
+				
 		void BtnTestClick(object sender, EventArgs e)
 		{
 			try
@@ -127,10 +129,10 @@ namespace comunicazione_seriale_arduino
 				       StringBuilder sb = new StringBuilder();
 				  //     sb.AppendLine(" SELECT ID, nome, cognome ");
 				  //     sb.AppendLine(" FROM rfid_general ");
-				  	   sb.AppendLine(" SELECT * ");
-				       sb.AppendLine(" FROM personale ");
-				       sb.AppendLine(" WHERE ID='");
-				       sb.Append(datiRicevuti);
+				  	   sb.Append(" SELECT * ");
+				       sb.Append(" FROM personale ");
+				       sb.Append(" WHERE ID='");
+				       sb.Append(datiRicevuti.TrimEnd('\r'));
 				       sb.Append("'");
 				
 				       label1.Text= sb.ToString();
@@ -146,6 +148,24 @@ namespace comunicazione_seriale_arduino
 							   tabellaletture.Refresh();
 				           }
 				       }
+				    
+							       
+					byte[] imageBytes = helper.GetPersonaleImage(datiRicevuti.TrimEnd('\r'));
+
+                    
+
+                    using (MemoryStream ms = new MemoryStream(imageBytes))
+
+                    {
+
+                        pictureBox1.Image = Image.FromStream(ms);
+
+                        pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage; //fit to size
+
+                        pictureBox1.Refresh();
+
+                    }
+				       
 				
 				       // Chiusura connessione
 				       if (!gestionesql.ChiudiConnessione())
@@ -158,14 +178,11 @@ namespace comunicazione_seriale_arduino
 				   }
 			
 		}
-			
-			
-			
-		}
-
-		
-		
+		void BtnLoadClick(object sender, EventArgs e)
+		{
+			helper.TblImmagineInsert(datiRicevuti.TrimEnd('\r'),@"C:/uniCorno.jpg");
+		}  
 	}
 	
-
+}
 
